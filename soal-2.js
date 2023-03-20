@@ -101,6 +101,8 @@ const Asepp = new Student(
   "Universitas komputer indonesia ",
   "Sistem informasi"
 );
+console.log(Asepp.getUniversity());
 console.log(Asepp.getMajor());
 Asepp.setUniversity("Telkom university");
 console.log(Asepp.getUniversity());
+console.log(Asepp.getMajor());
